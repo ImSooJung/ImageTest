@@ -10,6 +10,7 @@ import android.graphics.Canvas;
  */
 public class MyImage {
     MyImage(Context context){
+
         super(context);
     }
 

@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new MyImage(getApplicationContext()));
+        setContentView(R.layout.activity_main);
     }
+}
 //    class MyImage extends View {
 //        MyImage(Context context){
 //            super(context);
@@ -39,5 +40,3 @@ public class MainActivity extends AppCompatActivity {
 //            canvas.scale(1.5f,1.5f,cx,cy);
 //            canvas.drawBitmap(picture,x,y,null );
 //        }
-    }
-}
